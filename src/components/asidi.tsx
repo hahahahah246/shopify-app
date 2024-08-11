@@ -42,7 +42,7 @@ export default function Carousel() {
                       A stylish and comfortable t-shirt with a unique prism design.
                     </p>
                     <div className="flex items-center gap-2 mt-auto">
-                      <Button size="sm">Buy Now</Button>
+                    <a href="/page-5"><Button size="sm">Edit Now</Button></a>
                       <Link href="#" className="text-muted-foreground hover:text-foreground" prefetch={false}>
                         Learn More
                       </Link>
@@ -65,7 +65,7 @@ export default function Carousel() {
                       Experience crystal clear audio with our latest wireless earbuds.
                     </p>
                     <div className="flex items-center gap-2 mt-auto">
-                      <Button size="sm">Buy Now</Button>
+                    <a href="/page-5"><Button size="sm">Edit Now</Button></a>
                       <Link href="#" className="text-muted-foreground hover:text-foreground" prefetch={false}>
                         Learn More
                       </Link>
@@ -88,7 +88,7 @@ export default function Carousel() {
                       Elevate your home decor with our intelligent and energy-efficient smart lamp.
                     </p>
                     <div className="flex items-center gap-2 mt-auto">
-                      <Button size="sm">Buy Now</Button>
+                    <a href="/page-5"><Button size="sm">Edit Now</Button></a>
                       <Link href="#" className="text-muted-foreground hover:text-foreground" prefetch={false}>
                         Learn More
                       </Link>
@@ -113,7 +113,7 @@ export default function Carousel() {
                     <h3 className="text-xl font-bold">Acme Backpack</h3>
                     <p className="text-muted-foreground">A durable and stylish backpack for all your adventures.</p>
                     <div className="flex items-center gap-2 mt-auto">
-                      <Button size="sm">Buy Now</Button>
+                    <a href="/page-5"><Button size="sm">Edit Now</Button></a>
                       <Link href="#" className="text-muted-foreground hover:text-foreground" prefetch={false}>
                         Learn More
                       </Link>
@@ -136,7 +136,7 @@ export default function Carousel() {
                       Charge your devices effortlessly with our sleek wireless charger.
                     </p>
                     <div className="flex items-center gap-2 mt-auto">
-                      <Button size="sm">Buy Now</Button>
+                    <a href="/page-5"><Button size="sm">Edit Now</Button></a>
                       <Link href="#" className="text-muted-foreground hover:text-foreground" prefetch={false}>
                         Learn More
                       </Link>
@@ -159,7 +159,7 @@ export default function Carousel() {
                       Experience high-quality audio with our voice-controlled smart speaker.
                     </p>
                     <div className="flex items-center gap-2 mt-auto">
-                      <Button size="sm">Buy Now</Button>
+                      <a href="/page-5"><Button size="sm">Edit Now</Button></a>
                       <Link href="#" className="text-muted-foreground hover:text-foreground" prefetch={false}>
                         Learn More
                       </Link>
@@ -186,7 +186,7 @@ export default function Carousel() {
                       Stay on top of your fitness goals with our advanced fitness tracker.
                     </p>
                     <div className="flex items-center gap-2 mt-auto">
-                      <Button size="sm">Buy Now</Button>
+                    <a href="/page-5"><Button size="sm">Edit Now</Button></a>
                       <Link href="#" className="text-muted-foreground hover:text-foreground" prefetch={false}>
                         Learn More
                       </Link>
@@ -209,7 +209,7 @@ export default function Carousel() {
                       Enjoy your music anywhere with our compact and high-quality portable speaker.
                     </p>
                     <div className="flex items-center gap-2 mt-auto">
-                      <Button size="sm">Buy Now</Button>
+                    <a href="/page-5"><Button size="sm">Edit Now</Button></a>
                       <Link href="#" className="text-muted-foreground hover:text-foreground" prefetch={false}>
                         Learn More
                       </Link>
@@ -232,7 +232,7 @@ export default function Carousel() {
                       Stay connected and on top of your health with our feature-packed smart watch.
                     </p>
                     <div className="flex items-center gap-2 mt-auto">
-                      <Button size="sm">Buy Now</Button>
+                      <a href="/page-5"><Button size="sm">Edit Now</Button></a>
                       <Link href="#" className="text-muted-foreground hover:text-foreground" prefetch={false}>
                         Learn More
                       </Link>

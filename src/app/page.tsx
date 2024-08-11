@@ -59,12 +59,14 @@ export default function Component() {
             </div>
           )}
           <Button variant="ghost" className="justify-start">
+            <a href="https://testing-shopify11.netlify.app/">
             <PenToolIcon className="w-5 h-5 mr-2" />
             Design Tool
+            </a>
           </Button>
           <Button variant="ghost" className="justify-start">
             <CommandIcon className="w-5 h-5 mr-2" />
-            Orders
+            Orders Editor
           </Button>
           <Button variant="ghost" className="justify-start">
             <SettingsIcon className="w-5 h-5 mr-2" />
@@ -76,25 +78,9 @@ export default function Component() {
           </Button>
           <Button variant="ghost" className="justify-start">
             <LogInIcon className="w-5 h-5 mr-2" />
-            Subscription
+         <a href="/subscription">Subscription</a>
           </Button>
-          <Button
-            
-            className="justify-between"
-            onClick={() => setShowNotificationOptions(!showNotificationOptions)}
-          >
-            <div className="flex items-center">
-              <MailsIcon className="w-5 h-5 mr-2" />
-              Notifications
-            </div>
-            <ChevronDownIcon className="w-5 h-5" />
-          </Button>
-          {showNotificationOptions && (
-            <div className="pl-8 space-y-2">
-              {/* Add notification options here */}
-            </div>
-          )}
-        </nav>
+           </nav>
       </aside>
       <main className="flex-1 p-6 space-y-6">
         <header className="flex justify-between">

@@ -69,18 +69,7 @@ export default function Component() {
             <LogInIcon className="w-5 h-5 mr-2" />
             Subscription
           </Button>
-          <Button
-            
-            className="justify-between"
-            onClick={() => setShowOptions(!showOptions)}
-          >
-            <div className="flex items-center">
-              <MailsIcon className="w-5 h-5 mr-2" />
-              Notifications
-            </div>
-            <ChevronDownIcon className="w-5 h-5" />
-          </Button>
-        </nav>
+          </nav>
         <div className="p-4 mt-auto">
           <Avatar>
             <AvatarImage src="/placeholder-user.jpg" />

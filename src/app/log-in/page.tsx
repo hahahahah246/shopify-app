@@ -1,8 +1,4 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/0kV8sciDy08
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
+
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import Link from "next/link"
@@ -50,9 +46,10 @@ export default function login() {
                 </div>
                 <Input id="password" type="password" required />
               </div>
-              <Button type="submit" className="w-full">
+             
+             <a href="https://leading-pheasant-93.accounts.dev/sign-in"> <Button type="submit" className="w-full">
                 Sign in
-              </Button>
+              </Button></a>
             </form>
           </div>
         </div>

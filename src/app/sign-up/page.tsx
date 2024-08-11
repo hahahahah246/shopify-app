@@ -49,9 +49,9 @@ export default function login() {
                 </div>
                 <Input id="password" type="password" required />
               </div>
-              <Button type="submit" className="w-full">
-                Sign in
-              </Button>
+             <a href="https://leading-pheasant-93.accounts.dev/sign-up"> <Button type="submit" className="w-full">
+                sign-up
+              </Button></a>
             </form>
           </div>
         </div>
