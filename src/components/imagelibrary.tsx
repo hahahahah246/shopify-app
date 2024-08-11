@@ -60,17 +60,17 @@ type ImageProps = {
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     images: [
       {
-        url: "#",
+        url: "https://testing-shopify11.netlify.app/",
         src: "https://images.ctfassets.net/5hig0ukq7ib0/3ZA4uukTXzxQIcXeir1msx/5b4d098599e07d337d50c91f5dcc55da/HomepageTile_Desktop_2023_T-Shirts.png?fm=jpg&q=85&w=1080&fl=progressive",
         alt: "Placeholder image 1",
       },
       {
-        url: "#",
+        url: "https://testing-shopify11.netlify.app/",
         src: "https://images.ctfassets.net/5hig0ukq7ib0/zMY8cFK5Xz2QpJTbmKdm2/61ecd8462c3c892bbf525acee0b39477/23Q418_GM_UnholidizetheSite_MktgTeam_Homepage_Desktop_Stickers.png?fm=jpg&q=85&w=1080&fl=progressive",
         alt: "Placeholder image 2",
       },
       {
-        url: "#",
+        url: "https://testing-shopify11.netlify.app/",
         src: "https://images.ctfassets.net/5hig0ukq7ib0/29urOO3xJSauNr8BXIt3jF/0836a12570a436dd07ed4957fb80d65b/23Q418_GM_UnholidizetheSite_MktgTeam_Homepage_Desktop_Posters.png?fm=jpg&q=85&w=1080&fl=progressive",
         alt: "Placeholder image 3",
       },
