@@ -2,39 +2,26 @@ import {
   Box,
   Card,
   Layout,
-  Link,
   Page,
-  Text,
   BlockStack,
   Button,
+  Text,
+
 } from "@shopify/polaris";
 import { TitleBar } from "@shopify/app-bridge-react";
 
 export default function IndexPage() {
   return (
-    <Page>
-      <TitleBar title="Home" />
-      <Layout>
+    <Page 
+    
+    >
+      <TitleBar title="Dashboard" />
+      <Layout style={{display: "flex", justifyContent: "center", alignItems: "center"}} >
         <Layout.Section>
-          <Card>
-            <BlockStack gap="400">
-              <Text as="h2" variant="headingMd">
-                Welcome to Palleon
-              </Text>
-              <Text>
-                You can start creating your merch templates here.
-              </Text>
-              <Link
-                url="https://shopify-app-3ga2.vercel.app/"
-                target="_blank"
-                removeUnderline
-              >
-                <Button variant="primary">
-                  Create A New Template
-                </Button>
-              </Link>
-            </BlockStack>
-          </Card>
+        <Text variant="headingMd" as="h1">Hi, Admin</Text>
+          <Card style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+         <Button variant="primary" style={{display: "flex", justifyContent: "center", alignItems: "center", padding:"20px"}}>Continue to Dashboard</Button>
+                    </Card>
         </Layout.Section>
       </Layout>
     </Page>

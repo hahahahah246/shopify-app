@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "c87009689651dc9b79ba7994f7868cf7"
+name = "test"
+handle = "test-15093"
+application_url = "https://hats-ev-instances-en.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "lush-vista.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://hats-ev-instances-en.trycloudflare.com/auth/callback",
+  "https://hats-ev-instances-en.trycloudflare.com/auth/shopify/callback",
+  "https://hats-ev-instances-en.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-07"
+
+[pos]
+embedded = false
